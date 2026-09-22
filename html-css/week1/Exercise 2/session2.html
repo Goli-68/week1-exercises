@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./session2.css" />
+  </head>
+  <body>
+   
+    <p class="form-title">Contact Form</p>
+
+
+ <!-- title -->
+    <div class="title-input">
+    <label for="title">Title:</label>
+      <section name="title" id="title">
+      <input type="radio" name="title" value="Mr" required /> Mr
+      <input type="radio" name="title" value="Ms" required /> Ms
+      <input type="radio" name="title" value="Mrs" required /> Mrs
+      <input type="radio" name="title" value="Miss" required /> Miss
+      <input type="radio" name="title" value="Dr" required /> Dr
+      <input type="radio" name="title" value="Sir" required /> Sir
+    </div>
+
+
+    <form class="form">
+      <div class="name">
+        <label for="name">First Name:</label>
+        <input type="text" name="name" placeholder="First Name" required />
+      </div>
+      <br />
+
+
+      <div class="last-name">
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" placeholder="Last Name" required />
+      </div>
+       <br />
+
+
+      <div class="email">
+        <label for="email">Email:</label>
+        <input type="text" name="email" placeholder="Email" required />
+      </div>
+      <br />
+
+        <div class="phone">
+        <label for="phone">Phone:</label>
+        <input type="number" name="phone" placeholder="Phone" required />
+        </div>
+      <br />
+        
+        <div class="why">
+        <label for="why">Why are you interested in our company?</label>
+        <input type="text" name="why" placeholder="Reason" required />
+        </div>
+       
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+  </body>
+</html>
