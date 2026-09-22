@@ -1,0 +1,96 @@
+
+
+html{
+    background-color: #f0ebeb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+   font-size: 16px;
+   
+}
+.nav-list{
+    display:flex;
+    gap: 20px;
+    align-items: right;
+    color:#883636;
+}
+.whole-page {
+border: 3px solid rgb(101, 101, 199);
+padding: 30px;
+margin: 30px auto;
+max-width: 800px;
+background-color: #b39898;
+
+}
+
+
+
+.profile {
+ color: #883636;
+  min-height: 100px;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center; 
+    font-weight: bold;
+    line-height:normal
+}
+/*gaged*/
+p  {
+   
+    font-size: 30px;
+    text-align: center;
+    font-weight: italic;
+}
+
+
+/*biography*/
+.biography{
+  padding: 20px;
+  border: 2px solid rgb(101, 101, 199);
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: italic;
+  line-height: 1.6;
+  background-color: #f3efef;
+ 
+}
+
+h2{
+    color: #883636;
+    font-size: 30px;
+    text-align: center; 
+    font-weight: bold;
+   
+}
+
+ .connect ul {
+    display: flex;
+    gap:40px;
+    align-items: center;
+   
+ }
+ aside {
+    background-color: #f3efef;
+    padding: 20px;
+    border: 2px solid rgb(101, 101, 199);
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px 0;
+    display:inline-block;
+ }
+ .aside-items{
+  display: flex;
+  gap: 40px;
+ }
+
+
+ /*footer*/
+ .footer {
+text-align: center;
+ }

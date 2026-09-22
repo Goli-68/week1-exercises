@@ -1,0 +1,141 @@
+
+
+
+.form-title {
+ text-align: center;
+ font-size: 35px;
+ font-weight: bold;   
+ font-family: Arial, Helvetica, sans-serif;
+ text-shadow: 10px 10px 5px grey;
+}
+
+body {
+    background-color: rgb(247, 243, 243);
+}
+
+.title-input {
+           
+          
+        
+ font-size: 20px;
+ text-align: center;      
+ gap: 15px;
+ cursor: pointer;
+        }
+
+.radio-input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    
+}
+
+.form {
+    width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: azure;
+}
+
+.name ,
+.last-name,
+.email,
+.phone
+ {
+    width: 45%;
+    padding: 10px 15px;
+    margin: 1px 1px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.name input,
+.last-name input 
+ {
+    width: 50%;
+    padding: 10px 15px;
+    margin: 1px 0;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #bd2f2f; 
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(60, 20, 20);
+     margin-left: 38px;
+    font-weight: bold;
+ }
+
+.email input,.phone input {
+    width: 50%;
+    padding: 10px 15px;
+    margin: 1px 0;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #bd2f2f; 
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(60, 20, 20);
+     margin-left: 38px;
+     
+    font-weight: bold;
+}
+.name input,
+.last-name input,
+.email input,
+.phone input {
+    background-color: #9baa9d;
+}
+ 
+.why {
+    width: 75%;
+    padding: 10px 15px;
+    margin: 1px 0;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.why input {
+    width:50%;
+    padding: 10px 15px;
+    margin: 1px 0;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #bd2f2f; 
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(60, 20, 20);
+     margin-left: 38px;
+     background-color: #9baa9d;
+    font-weight: bold;
+}
+.submit-button {
+    width:20%;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #bd2f2f; 
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(71, 13, 13, 0.301);
+    background-color: #9baa9d;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 150px;
+}
